@@ -24,13 +24,13 @@ class Cadastro : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if(item.itemId == R.id.itemSalvar){
-            /*val contato = Contato(edtNome.text.toString(),
+            val contato = Contato(edtNome.text.toString(),
                                   edtEmail.text.toString(),
                                   edtFone.text.toString())
 
             val dao = ContatoDatabase.getInstance(this).contatoDAO()
 
-            dao.Inserir(contato)*/
+            dao.Inserir(contato)
 
             Toast.makeText(this, "Contato salvo!", Toast.LENGTH_LONG).show()
             finish()

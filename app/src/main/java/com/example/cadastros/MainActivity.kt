@@ -25,11 +25,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun CarregarLista() {
-        /*val dao = ContatoDatabase.getInstance(this).contatoDAO()
+        val dao = ContatoDatabase.getInstance(this).contatoDAO()
 
         val lista: List<Contato> = dao.Lista()
 
         val adapter = ArrayAdapter<Contato>(this, android.R.layout.simple_list_item_1, lista)
-        lstContatos.adapter = adapter*/
+        lstContatos.adapter = adapter
     }
 }
